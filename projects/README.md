@@ -1,4 +1,4 @@
-## Rush
+## Projects
 
 🚅
 
