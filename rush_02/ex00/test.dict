@@ -1,0 +1,36 @@
+0: rei
+1: ichi
+2: ni
+3: san
+4: yon
+5: go
+6: roku
+7: nana
+8: hachi
+9: kyu
+10: ju
+11: ju-ichi
+12: ju-ni
+13: ju-san
+14: ju-yon
+15: ju-go
+16: ju-roku
+17: ju-nana
+18: ju-hachi
+19: ju-kyu
+20: ni-ju
+30: san-ju
+40: yon-ju
+50: go-ju
+60: roku-ju
+70: nana-ju
+80: hachi-ju
+90: kyu-ju
+100: hyaku
+1000: sen
+10000: man
+1000000: hyaku-man
+100000000: oku
+1000000000: juu-oku
+absj : ?
+ ; : ?
