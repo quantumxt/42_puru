@@ -1,6 +1,11 @@
 # 42_puru
 
-![June 2023](https://img.shields.io/static/v1?label=+SG&message=June+2023&color=8294C4&logo=42)
+`zig` branch
+
+> Note: This is not part of the piscine, just trying out the exercises in `ziglang` and exploring this language. More information could be found [here](https://ziglang.org).
+
+![June 2023](https://img.shields.io/static/v1?label=+SG&message=June+2023&color=8294C4&logo=42) 
+![zig](https://img.shields.io/static/v1?label=+Zig&message=Inside&color=8294C4&logo=zig)
 
 ```python
 
@@ -11,29 +16,47 @@ Inaugural Edition
 
 ```
 
-26 Days of Continuous Coding.
+## Zig
 
----
+### Installation
 
-## Tasks
+Install zig via the snap package manager. (Ubuntu)
 
-```
-She sells seashells by the seashore,
-The shells she sells are seashells, I’m sure.
-So if she sells seashells on the seashore,
-Then I’m sure she sells seashore shells.
+```bash
+snap install zig --classic --edges
 ```
 
-- [C](./C/README.md)
-- [Shell](./shell/README.md)
-- [Rush](./projects/README.md)
+We would be using the git `master` build, more information is available [here](https://github.com/ziglang/zig/wiki/Install-Zig-from-a-Package-Managers).
 
-## Useful Tools
 
-- `vi(m)`: Text Editor
-- `gdb`: GNU Debugger
-- `valgrind`: Memory debugger.
-- [Norminette Checker](check_norm.sh): Checks formatting and displays source code.
+
+### Compilation
+
+Use `zig build-exe`  to build the executable.
+
+```bash
+zig build <source_file>
+```
+
+For example, if the source file is a.zig:
+
+```bash
+zig build-exe a.zig
+```
+
+Both the `.o` and executable file would be generated after the compilation has been complete. 
+
+
+
+### Running
+
+The executable could the be executed:
+
+```
+./a
+```
+
+
 
 ## Disclaimer
 
